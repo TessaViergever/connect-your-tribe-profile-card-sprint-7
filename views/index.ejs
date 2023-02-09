@@ -1,50 +1,75 @@
 <%- include('./partials/head') %>
 
-<article>
-<header>
+  <div id="container-of-all">
+    <header>
+      <div id="container-header-img">
+        <img id="header-background-img" src="Images/sunset-background.jpg" alt="zonsondergang met palmbomen">
+        <img id="header-profile-img" src="Images/profielfoto-tessaviergever.JPG" href="" alt="Een lachende Tessa Viergever">
+      </div>
+      <div id="container-header-text">
+        <h1>Tessa Viergever <%= member.name.surname %></h1>
+        <h2>Frontender in the making🐣✨</h2>
+      </div>
+    </header>
 
-</header>
+    <main>
 
-  
-  <img src="/images/sunset-background.jpg" alt="Sunset and palmtrees">
-  <h1>Tessa Viergever</h1>
+      <div id="about-me-section-cards">
+      <section class="about-card" id="about-card-1">
+        <ol>♥
+          <li>nieuwe dingen leren</li>
+          <li>indoor jungle</li>
+          <li>sporten</li>
+          <li>wandelen</li>
+          <li>macramé</li>
+          <li>dansen</li>
+          <li>reizen</li>
+        </ol>
+      </section>
 
-<p><em><h2>🙋‍♀️<br>Hi, ik ben Tessa!</h2></em></p>
-  
-  <dl>
-    <dt>♥</dt><dd>
-      <li>Nieuwe dingen leren</li>
-      <li>Indoor Jungle</li>
-      <li>Sporten</li>
-      <li>Wandelen</li>
-      <li>Macramé</li>
-      <li>Muziek</li>
-      <li>Dansen</li>
-      <li>Reizen</li>
-    </dd>
-    <dt>🧩</dt><dd>
-      FDND 
-      <br>
-      is voor mij een samenkomst van elementen
-      <br>
-      <br>
-      <li>problemen oplossen</li>
-      <li>mensen helpen</li>
-      <li>psychologie</li>
-      <li>technisch</li>
-      <li>creatief</li>
-      </dd>
-    <dt>🔮</dt><dd>
-      <li>Locatie onafhankelijk werken</li>
-      <li>Door blijven ontwikkelen</li>
-      <li>De wereld zien</li>
-      <li>Authentiek</li>
-      <li>Bevlogen</li>
-      <li>Vrijheid</li> 
-    </dd>
-  </dl>
-  
-  <p> ☎   📸  💻  📱</p>
-</article>
+      <section class="about-card" id="about-card-2">
+        <ol>🧩
+          <li>problemen oplossen</li>
+          <li>mensen helpen</li>
+          <li>psychologie</li>
+          <li>technologie</li>
+          <li>creativiteit</li>
+        </ol>
+      </section>
 
-<%- include('./partials/foot') %>
+      <section class="about-card" id="about-card-3">
+        <ol>🔮
+          <li>locatie onafhankelijk</li>
+          <li>blijven ontwikkelen</li>
+          <li>de wereld zien</li>
+          <li>authenticiteit & bevlogenheid</li>
+          <li>vrijheid</li>
+        </ol>
+      </section>
+    </div>
+
+    </main>
+
+    <footer>
+      <ol>
+        <a>
+          <li>📱</li>
+        </a>
+        <a>
+          <li>💻</li>
+        </a>
+        <a>
+          <li>📸</li>
+        </a>
+        <a>
+          <li>☎</li>
+        </a>
+        <a>
+          <li>☎</li>
+        </a>
+      </ol>
+    </footer>
+  </div>
+
+
+  <%- include('./partials/foot') %>
