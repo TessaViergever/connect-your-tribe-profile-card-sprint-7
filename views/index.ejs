@@ -7,8 +7,8 @@
         <img id="header-profile-img" src="Images/profielfoto-tessaviergever.JPG" href="" alt="Een lachende Tessa Viergever">
       </div>
       <div id="container-header-text">
-        <h1>Tessa Viergever <%= member.name.surname %></h1>
-        <h2>Frontender in the making🐣✨</h2>
+        <h1><%= member.name %> <%= member.surname %></h1>
+        <h2><%= member.bio.html %> </h2>
       </div>
     </header>
 
